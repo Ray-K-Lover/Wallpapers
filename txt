@@ -1,1 +1,3 @@
-grep -aoE '[[:print:]]*(sudo|doas)[[:print:]]*' "$(command -v vuru)" | head
+printf '#!/bin/sh\nexec doas "$@"\n' > ~/.local/bin/sudo
+chmod +x ~/.local/bin/sudo
+command -v sudo
