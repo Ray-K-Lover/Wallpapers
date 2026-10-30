@@ -1,0 +1,1 @@
+grep -aoE '[[:print:]]*(sudo|doas)[[:print:]]*' "$(command -v vuru)" | head
