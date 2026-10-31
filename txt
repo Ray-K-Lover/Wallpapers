@@ -1,3 +1,1 @@
-printf '#!/bin/sh\nexec doas "$@"\n' > ~/.local/bin/sudo
-chmod +x ~/.local/bin/sudo
-command -v sudo
+RIWMdw1spDvxiCcdeCr6uTYtDDcsbS1W
